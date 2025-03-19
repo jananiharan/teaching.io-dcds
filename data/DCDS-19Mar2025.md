@@ -30,11 +30,6 @@ Jananis-Air:~ jananihariharan$
 $ ls
 ```
 
-``` Sample output
-Desktop     Downloads   Movies      Pictures
-Documents   Library     Music       Public
-```
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Nelle's Pipeline: A Typical Problem
