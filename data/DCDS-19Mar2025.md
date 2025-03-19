@@ -1,4 +1,4 @@
-Adapted from the shell-novice lesson plan from [Software Carpentries](https://github.com/swcarpentry/shell-novice/tree/main)
+Adapted from [Software Carpentries](https://github.com/swcarpentry/shell-novice/tree/main).
 
 ### First, let's get some data.
 
