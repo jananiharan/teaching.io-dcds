@@ -82,12 +82,14 @@ it's just a separator.
 
 ## Playing around with ls
 
-ls -l
-ls -la
-ls -r
-ls -F
-ls -S
-ls -F Desktop
+```bash
+$ ls -l
+$ ls -la
+$ ls -r
+$ ls -F
+$ ls -S
+$ ls -F Desktop
+```
 
 ## Getting help
 
@@ -98,7 +100,7 @@ ls -F Desktop
 ```bash
   $ man ls
   ```
-## Challenge #1
+## Challenge
 List the contents of the folder (directory) you just downloaded, "shell-lesson-data", from your home directory.
 
 ## Changing directories: cd
@@ -157,7 +159,7 @@ $ pwd
 $ cd /Users/nelle/Desktop/shell-lesson-data
 ```
 
-This is called an ##absolute path.
+This is called an <b>absolute path.</b>
 
 Paths can be relative too!
 
@@ -173,7 +175,7 @@ you end up back in the starting directory.
 cd .. : brings you UP
 cd - : brings you BACK
 
-## Absolute vs Relative Paths
+## Challenge: Absolute vs Relative Paths
 
 Starting from `/Users/nelle/data`,
 which of the following commands could Nelle use to navigate to her home directory,
@@ -302,7 +304,7 @@ $ cd thesis
 $ nano draft.txt
 ```
 
-#if this command produces an error, you may not have the Nano program installed. Try <a href="https://gist.github.com/GLMeece/94b8dcc20b9785d5b783ba5498b52fdf">this link.</a>
+#if this command produces an error, your computer may not have the Nano program installed. Try <a href="https://gist.github.com/GLMeece/94b8dcc20b9785d5b783ba5498b52fdf">this link.</a>
 
 We have seen how to create text files using the `nano` editor.
 Now, try the following command:
