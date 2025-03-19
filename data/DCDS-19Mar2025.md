@@ -1,5 +1,9 @@
 Adapted from the shell-novice lesson plan from [Software Carpentries](https://github.com/swcarpentry/shell-novice/tree/main)
 
+### First, let's get some data.
+
+Save [this file](files/shell-lesson-data.zip) to your Desktop, and then "unzip" or decompress it so you can see the contents in a folder.
+
 ### Meet The Shell
 
 Let's get started.
@@ -24,7 +28,7 @@ An example prompt from my screen:
 Jananis-Air:~ jananihariharan$ 
 ```
 
-## ls : List contents of a directory
+## List contents of a directory : ls
 
 ```bash
 $ ls
@@ -293,7 +297,7 @@ What does this command do?
 $ ls -FR ../project
 ```
 
-:::::::::::::::::::::::::::::::::::::::::  callout
+:::::::::::::::::::::::::::::::::::::::::  callout <br />
 Let's talk about good file naming practices for the command line. 
 
 Let's change our working directory to `thesis` using `cd`,
@@ -658,7 +662,7 @@ $ mkdir raw processed
 
 I'll leave you with a few more commands to start exploring the power of the shell:
 
-## Counting the number of words in a file: wc
+## Counting the number of characters or letters in a file: wc
 
 ```bash
 $ ls ~/Desktop/shell-lesson-data/exercise-data/alkanes
@@ -671,7 +675,7 @@ Now try:
 $ wc *.pdb
 ```
 
-## Capturing output from commands
+## Capturing output from commands : >
 
 Which of these files contains the fewest lines?
 It's an easy question to answer when there are only six files,
@@ -745,15 +749,14 @@ $ tail -n 2 animals.csv >> animals-subset.csv
 2. The last two lines of `animals.csv`
 3. The first three lines and the last two lines of `animals.csv`
 4. The second and third lines of `animals.csv`
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
-&emsp;
+<br />
+<br />
+<br />
+<br />
+<br />
 Still reading? OK, here's a (super cool) bonus:
 
-## The Pipe!
+## || The Pipe! ||
 
 In our example of finding the file with the fewest lines,
 we are using two intermediate files `lengths.txt` and `sorted-lengths.txt` to store output.
