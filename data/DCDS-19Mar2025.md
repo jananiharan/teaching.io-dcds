@@ -69,6 +69,7 @@ she will be able to use it again whenever she collects more data.
 
 ```Sample output
 /Users/jananihariharan
+```
 
 This is my **home directory**
 
@@ -154,6 +155,7 @@ $ pwd
 
 ```bash
 $ cd /Users/nelle/Desktop/shell-lesson-data
+```
 
 This is called an ##absolute path.
 
@@ -400,7 +402,7 @@ $ cp -r thesis thesis_backup
 
 Why is the -r option important? Try this command:
 
-``` bash
+```bash
 $ cp thesis thesis_backup
 ```
 
@@ -741,9 +743,12 @@ $ tail -n 2 animals.csv >> animals-subset.csv
 2. The last two lines of `animals.csv`
 3. The first three lines and the last two lines of `animals.csv`
 4. The second and third lines of `animals.csv`
-
-
-
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
 Still reading? OK, here's a (super cool) bonus:
 
 ## The Pipe!
