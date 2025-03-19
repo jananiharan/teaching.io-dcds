@@ -2,7 +2,8 @@ Adapted from the shell-novice lesson plan from [Software Carpentries](https://gi
 
 ### First, let's get some data.
 
-Save [this file]([files/shell-lesson-data.zip](https://github.com/jananiharan/teaching.io-dcds/blob/master/files/shell-lesson-data.zip)) to your Desktop, and then "unzip" or decompress it so you can see the contents in a folder.
+1. Save <a href="https://github.com/jananiharan/teaching.io-dcds/blob/master/files/shell-lesson-data.zip">this file</a> to your Desktop. </br>
+2. "unzip" or decompress it so you can see the contents in a folder.
 
 ### Meet The Shell
 
