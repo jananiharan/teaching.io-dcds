@@ -2,7 +2,7 @@ Adapted from the shell-novice lesson plan from [Software Carpentries](https://gi
 
 ### First, let's get some data.
 
-Save [this file](files/shell-lesson-data.zip) to your Desktop, and then "unzip" or decompress it so you can see the contents in a folder.
+Save [this file]([files/shell-lesson-data.zip](https://github.com/jananiharan/teaching.io-dcds/blob/master/files/shell-lesson-data.zip)) to your Desktop, and then "unzip" or decompress it so you can see the contents in a folder.
 
 ### Meet The Shell
 
@@ -176,7 +176,7 @@ This is a *very* efficient way of moving
 *back and forth between two directories* -- i.e. if you execute `cd -` twice,
 you end up back in the starting directory.
 
-cd .. : brings you UP
+cd .. : brings you UP </br>
 cd - : brings you BACK
 
 ## Challenge: Absolute vs Relative Paths
